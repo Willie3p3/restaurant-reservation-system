@@ -13,7 +13,6 @@ import Edit from "../reservations/Edit";
 /**
  * Defines all the routes for the application.
  *
-*
  * You will need to make changes to this file.
  *
  * @returns {JSX.Element}
@@ -40,7 +39,7 @@ function Routes() {
         <Redirect to={"/dashboard"} />
       </Route>
       <Route path="/dashboard">
-     <Dashboard date={date || today()} />
+      <Dashboard date={date || today()} />
       </Route>
       <Route path="/tables/new">
         <Tables />
@@ -50,7 +49,7 @@ function Routes() {
       </Route>
       <Route>
         <NotFound />
-      </Route>
+     </Route>
     </Switch>
   );
 }
