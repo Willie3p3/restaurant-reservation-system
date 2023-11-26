@@ -8,7 +8,7 @@ import TableList from "./TableList/TableList";
 
 /**
  * Defines the dashboard page.
- * @param date
+  * @param date
  *  the date for which the user wants to view reservations.
  * @returns {JSX.Element}
  */
@@ -18,7 +18,7 @@ function Dashboard({ date }) {
   const [reservationsError, setReservationsError] = useState(null);
   const history = useHistory();
 
-  useEffect(loadDashboard, [date]);
+   useEffect(loadDashboard, [date]);
 
   function loadDashboard() {
     const abortController = new AbortController();
@@ -31,7 +31,7 @@ function Dashboard({ date }) {
     return () => abortController.abort();
   }
 
-  function handleToday() {
+function handleToday() {
     history.push(`/dashboard`);
   }
 
