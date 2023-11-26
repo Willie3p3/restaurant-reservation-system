@@ -1,6 +1,3 @@
-/**
- * List handler for reservation resources
- */
 const asyncErrorBoundary = require("../errors/asyncErrorBoundary");
 const service = require("./reservations.service");
 
