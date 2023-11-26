@@ -14,10 +14,7 @@ function Menu() {
           to="/"
         >
           <div className="sidebar-brand-text mx-3">
-            </Link>
-          </li>
-          <li className="nav-item">
-            <span className="fw5">Periodic Tables</span>
+             <span className="fw5">Periodic Tables</span>
           </div>
         </Link>
         <hr className="sidebar-divider my-0" />
@@ -41,12 +38,13 @@ function Menu() {
             </Link>
           </li>
           <li className="nav-item">
-  <Link className="nav-link" to="/tables/new">
+              <Link className="nav-link" to="/tables/new">
               <span className="oi oi-layers" />
               &nbsp;New Table
             </Link>
           </li>
-        </ul> </div>
+        </ul>
+   </div>
     </nav>
   );
 }
