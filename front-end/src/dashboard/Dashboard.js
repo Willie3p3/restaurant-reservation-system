@@ -32,7 +32,7 @@ function Dashboard({ date }) {
   }
 
 function handleToday() {
-    history.push(`/dashboard`);
+    history.push("/dashboard");
   }
 
   function handlePrev() {
