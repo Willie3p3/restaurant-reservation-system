@@ -40,9 +40,12 @@ function handleToday() {
     history.push(`/dashboard?date=${newDate}`);
   }
 
-  function handleNext() {
-    history.push(`/dashboard?date=${next(date)}`);
-  }
+ function handleNext() {
+  const queryParams = new URLSearchParams();
+  queryParams.set('date', next(date));
+  const nextURL = `/dashboard?${queryParams.toString()}`;
+  history.push(nextURL);
+}
 
   return (
     <main>
