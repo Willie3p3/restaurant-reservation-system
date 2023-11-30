@@ -60,7 +60,7 @@ function handleToday() {
         <button className="btn btn-dark mr-1" onClick={handlePrev}>
           Previous
         </button>
-        <button className="btn btn-dark" onClick={handleNext}>
+        <button className="btn btn-dark mr-1" onClick={handleNext}>
           Next
         </button>
       </div>
