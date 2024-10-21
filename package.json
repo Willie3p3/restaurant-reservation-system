@@ -50,6 +50,6 @@
   "license": "UNLICENSED",
   "dependencies": {
     "knex": "^2.4.2",
-    "next": "^14.0.3"
+    "next": "^14.2.7"
   }
 }
